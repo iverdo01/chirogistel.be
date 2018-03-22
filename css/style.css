@@ -1,0 +1,42 @@
+.thumbnail{text-align:center;}
+body{
+	background-color: #FF0004;
+	background-image: url('/img/Page-BgTexture.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top left;
+	padding-top: 60px;
+}
+.page-content{
+	padding: 15px;
+	border-radius:15px;
+	background-color:white;
+}
+@font-face{ 
+	font-family: 'Vitamin';
+	src: url('/font/vitamin-webfont.eot');
+	src: url('/font/vitamin-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('/font/vitamin-webfont.woff') format('woff'),
+	     url('/font/vitamin-webfont.ttf') format('truetype'),
+	     url('/font/vitamin-webfont.svg#webfont') format('svg');
+}
+.page_title{
+	font-family: 'Vitamin';
+	font-size:50px;
+	width:100%;
+	margin-bottom:20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.jPicker.Container{
+	margin-top:120px;
+}
+input[type=checkbox]{
+	float:left;
+	margin-right:5px;
+}
+.thumbnails > li {
+	max-width: 90%;
+}
+
